@@ -198,7 +198,7 @@ header SUBJ2022 Subject =~ /(ALL\.\ NEW\.\ NIKE|Game Show Parties|very cheap pri
 describe SUBJ2022 Subject contained known spam string
 score SUBJ2022 25
 
-body BODYSPAM2022 /(globalwomanonline\.com|truccos\.com\.co|priximbattable\.net|mailing\-lpbwoman\.com|exceljet\.net|61su\.mjt\.lu|xmtuw\.mjt\.lu)/i
+body BODYSPAM2022 /(globalwomanclub|globalwomanonline\.com|truccos\.com\.co|priximbattable\.net|mailing\-lpbwoman\.com|exceljet\.net|61su\.mjt\.lu|xmtuw\.mjt\.lu)/i
 describe BODYSPAM2022 Email contained known spam string
 score BODYSPAM2022 25
 
