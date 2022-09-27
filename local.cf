@@ -200,7 +200,7 @@ header SUBJ2022 Subject =~ /(I recorded you|ALL\.\ NEW\.\ NIKE|Game Show Parties
 describe SUBJ2022 Subject contained known spam string
 score SUBJ2022 25
 
-body BODYSPAM2022 /(drop your carbs|doodoo your carbs|poop your carbs|That Flushes Out|your carbs out|NetflixInternational|globalwomanclub|globalwomanonline\.com|truccos\.com\.co|priximbattable\.net|mailing\-lpbwoman\.com|exceljet\.net|61su\.mjt\.lu|xmtuw\.mjt\.lu)/i
+body BODYSPAM2022 /(Sexy and hot girl|drop your carbs|doodoo your carbs|poop your carbs|That Flushes Out|your carbs out|NetflixInternational|globalwomanclub|globalwomanonline\.com|truccos\.com\.co|priximbattable\.net|mailing\-lpbwoman\.com|exceljet\.net|61su\.mjt\.lu|xmtuw\.mjt\.lu)/i
 describe BODYSPAM2022 Email contained known spam string
 score BODYSPAM2022 25
 
