@@ -207,3 +207,7 @@ score BODYSPAM2022 25
 body COINSCAM2022 /(1Q57VuGipLWi9qauXCEDW9qrkiXuZtUcac)/i
 describe COINSCAM2022 Bitcoin ransom email
 score COINSCAM2022 25
+
+# This rule is intended only to log something that I think might uniquely identify spam, and I want to see what result is logged
+header MXEXPLORING List-Unsubscribe =~ /glitter\-nationalize/i
+score MXEXPLORING 0
