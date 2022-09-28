@@ -200,14 +200,10 @@ header SUBJ2022 Subject =~ /(I recorded you|ALL\.\ NEW\.\ NIKE|Game Show Parties
 describe SUBJ2022 Subject contained known spam string
 score SUBJ2022 25
 
-body BODYSPAM2022 /(Sexy and hot girl|drop your carbs|doodoo your carbs|poop your carbs|That Flushes Out|your carbs out|NetflixInternational|globalwomanclub|globalwomanonline\.com|truccos\.com\.co|priximbattable\.net|mailing\-lpbwoman\.com|exceljet\.net|61su\.mjt\.lu|xmtuw\.mjt\.lu)/i
+body BODYSPAM2022 /(Neil Raine|Online Marketing and Promotion|Salesforce Customization|offering Website Design|Sexy and hot girl|drop your carbs|doodoo your carbs|poop your carbs|That Flushes Out|your carbs out|NetflixInternational|globalwomanclub|globalwomanonline\.com|truccos\.com\.co|priximbattable\.net|mailing\-lpbwoman\.com|exceljet\.net|61su\.mjt\.lu|xmtuw\.mjt\.lu)/i
 describe BODYSPAM2022 Email contained known spam string
 score BODYSPAM2022 25
 
 body COINSCAM2022 /(1Q57VuGipLWi9qauXCEDW9qrkiXuZtUcac)/i
 describe COINSCAM2022 Bitcoin ransom email
 score COINSCAM2022 25
-
-# This rule is intended only to log something that I think might uniquely identify spam, and I want to see what result is logged
-header MXEXPLORING List-Unsubscribe =~ /glitter\-nationalize/i
-score MXEXPLORING 0
