@@ -201,7 +201,7 @@ header SUBJ2022 Subject =~ /(Your Wikipedia Moderator|I recorded you|ALL\.\ NEW\
 describe SUBJ2022 Subject contained known spam string
 score SUBJ2022 25
 
-body BODYSPAM2022 /(Neil Raine|Online Marketing and Promotion|Salesforce Customization|offering Website Design|Sexy and hot girl|drop your carbs|doodoo your carbs|poop your carbs|That Flushes Out|your carbs out|NetflixInternational|globalwomanclub|globalwomanonline\.com|truccos\.com\.co|priximbattable\.net|mailing\-lpbwoman\.com|exceljet\.net|61su\.mjt\.lu|xmtuw\.mjt\.lu)/i
+body BODYSPAM2022 /(Home Depot wants to give you|Continue_This_Way|Neil Raine|Online Marketing and Promotion|Salesforce Customization|offering Website Design|Sexy and hot girl|drop your carbs|doodoo your carbs|poop your carbs|That Flushes Out|your carbs out|NetflixInternational|globalwomanclub|globalwomanonline\.com|truccos\.com\.co|priximbattable\.net|mailing\-lpbwoman\.com|exceljet\.net|61su\.mjt\.lu|xmtuw\.mjt\.lu)/i
 describe BODYSPAM2022 Email contained known spam string
 score BODYSPAM2022 25
 
