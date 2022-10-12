@@ -211,7 +211,7 @@ score SPAMDOMAINS2022 25
 
 header SEOSHIT2022 Subject =~ /(Have a look here|high da|link service|quality site|reasonable price|guest post|high traffic|posting service|sponsored post|ranked website|paid article|quality website|your good order|service guest|affordable price|back\-link)/i
 describe SEOSHIT2022 Spammers
-score SEOSHIT2022 25
+score SEOSHIT2022 50
 
 body COINSCAM2022 /(1Q57VuGipLWi9qauXCEDW9qrkiXuZtUcac)/i
 describe COINSCAM2022 Bitcoin ransom email
