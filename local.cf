@@ -209,7 +209,7 @@ header SPAMDOMAINS2022 From =~ /(dizitalmkt\.com)/i
 describe SPAMDOMAINS2022 Spammers
 score SPAMDOMAINS2022 25
 
-header SEOSHIT2022 Subject =~ /(good authority site|good quality|good site|Have a look here|high da|link service|quality site|reasonable price|guest post|high traffic|posting service|sponsored post|ranked website|paid article|quality website|your good order|service guest|affordable price|back\-link|link builder|content marketing|da traffic|attached file)/i
+header SEOSHIT2022 Subject =~ /(Yoga mat with|good authority site|good quality|good site|Have a look here|high da|link service|quality site|reasonable price|guest post|high traffic|posting service|sponsored post|ranked website|paid article|quality website|your good order|service guest|affordable price|back\-link|link builder|content marketing|da traffic|attached file)/i
 describe SEOSHIT2022 Spammers
 score SEOSHIT2022 50
 
