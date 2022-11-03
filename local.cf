@@ -213,6 +213,10 @@ header SEOSHIT2022 Subject =~ /(Yoga mat with|good authority site|good quality|g
 describe SEOSHIT2022 Spammers
 score SEOSHIT2022 50
 
+header SEOSHIT2022TWO Subject =~ /(tuesday offer|check some sites|win a share of|website with permanent|post an article on your site|with good DA|Guest Blogging Service|check my new website|SEO Article|Backlinks|paid positing|Sample Business Plan|Check my new site|high\-authority website|Check my site|Site DA and Spam|DA sites and more|magazines2day|Question about Video Production|want to work with you|like my site|professional SEO|work with your site|Link building|Boost your link|review our site|Check my high quality|chance to work with you|providing service in Sites|Guest Blogging stuff|Your website looks like|mail is find you very|High PA DA|affiliate marketer|Providing Unique websites|sites are slowly|site quality with you|check my new website|Homebusinessmag|HIGH QUALITY DA|Premium but still cheap|Please check a site|follow and permanent link|techynovo|thetechrim|posts on our websites|Google approved website|check my new site|foodnurish|sites with DA|article on your site|Regarding sponsor post|help you with your website|review our site|instantblow)/i
+describe SEOSHIT2022TWO Spammers
+score SEOSHIT2022TWO 50
+
 body COINSCAM2022 /(1Q57VuGipLWi9qauXCEDW9qrkiXuZtUcac)/i
 describe COINSCAM2022 Bitcoin ransom email
 score COINSCAM2022 25
