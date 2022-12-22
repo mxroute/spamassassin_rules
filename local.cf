@@ -221,7 +221,7 @@ header SEOSHIT2022TWO Subject =~ /(tuesday offer|check some sites|win a share of
 describe SEOSHIT2022TWO Spammers
 score SEOSHIT2022TWO 50
 
-body COINSCAM2022 /(1Q57VuGipLWi9qauXCEDW9qrkiXuZtUcac)/i
+body COINSCAM2022 /(1AsRkzQSorZAc66fdXof9NHTNJdU4T8nC8Once|1Q57VuGipLWi9qauXCEDW9qrkiXuZtUcac)/i
 describe COINSCAM2022 Bitcoin ransom email
 score COINSCAM2022 25
 
