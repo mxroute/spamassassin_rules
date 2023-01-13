@@ -219,6 +219,10 @@ body BODYSPAM2022 /(ikrinka\.de|lacasadelascarcasas|softgentechnologies\.com|tru
 describe BODYSPAM2022 Email contained known spam string
 score BODYSPAM2022 25
 
+body BODYSPAM2023 /(earlypeach)/i
+describe BODYSPAM2023 Email contained known spam string
+score BODYSPAM2023 25
+
 header SPAMDOMAINS2022 From =~ /(sanabenefits|dizitalmkt\.com)/i
 describe SPAMDOMAINS2022 Spammers
 score SPAMDOMAINS2022 25
