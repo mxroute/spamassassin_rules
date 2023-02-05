@@ -223,9 +223,9 @@ body BODYSPAM2023 /(xitj6\.mjt\.lu|orcatrend|earlypeach|Please pass on my sugges
 describe BODYSPAM2023 Email contained known spam string
 score BODYSPAM2023 25
 
-header SPAMDOMAINS2022 From =~ /(tophaine\.ro|sanabenefits|dizitalmkt\.com)/i
-describe SPAMDOMAINS2022 Spammers
-score SPAMDOMAINS2022 25
+header SPAMDOMAINS2023 From =~ /(sislander\.com|tophaine\.ro|sanabenefits|dizitalmkt\.com)/i
+describe SPAMDOMAINS2023 Spammers
+score SPAMDOMAINS2023 25
 
 header SEOSHIT2022 Subject =~ /(Web Proposal|Yoga mat with|good authority site|good quality|good site|Have a look here|high da|link service|quality site|reasonable price|guest post|high traffic|posting service|sponsored post|ranked website|paid article|quality website|your good order|service guest|affordable price|back\-link|link builder|content marketing|da traffic|attached file|work with you please|scrape google|results-driven|back link|check my google|website for you|website ranking|my offer price is)/i
 describe SEOSHIT2022 Spammers
