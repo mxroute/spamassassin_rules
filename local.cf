@@ -223,7 +223,7 @@ body BODYSPAM2023 /(If you want to delete yourself from the base|xitj6\.mjt\.lu|
 describe BODYSPAM2023 Email contained known spam string
 score BODYSPAM2023 25
 
-header SPAMDOMAINS2023 From =~ /(sislander\.com|tophaine\.ro|sanabenefits|dizitalmkt\.com)/i
+header SPAMDOMAINS2023 From =~ /(lemonlightlabs|sislander\.com|tophaine\.ro|sanabenefits|dizitalmkt\.com)/i
 describe SPAMDOMAINS2023 Spammers
 score SPAMDOMAINS2023 25
 
