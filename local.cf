@@ -223,7 +223,7 @@ body BODYSPAM2023 /(bonjourmaurice\.be|hs\-hundebett\.myshopify\.com|If you want
 describe BODYSPAM2023 Email contained known spam string
 score BODYSPAM2023 25
 
-header SPAMDOMAINS2023 From =~ /(lemonlightlabs|sislander\.com|tophaine\.ro|sanabenefits|dizitalmkt\.com)/i
+header SPAMDOMAINS2023 From =~ /(beautiqline|lemonlightlabs|sislander\.com|tophaine\.ro|sanabenefits|dizitalmkt\.com)/i
 describe SPAMDOMAINS2023 Spammers
 score SPAMDOMAINS2023 25
 
