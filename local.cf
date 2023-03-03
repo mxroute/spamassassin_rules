@@ -186,6 +186,12 @@ score DOS_OUTLOOK_TO_MX 2
 score GAPPY_SUBJECT 3
 score RAND_MKTG_HEADER 25
 
+# spam.dnsbl.anonmails.de
+header RCVD_IN_ANONMAILS        eval:check_rbl('anonmails-lastexternal', 'spam.dnsbl.anonmails.de.')
+describe RCVD_IN_ANONMAILS      Relay is listed in spam.dnsbl.anonmails.de
+tflags RCVD_IN_ANONMAILS        net
+score RCVD_IN_ANONMAILS         3.0
+
 header __SPAM_GMAILG1 From =~ /\@(?:google|g)mail\.com\b/i
 header __SPAM_GMAILG2 To =~ /undisclosed/i
 header __SPAM_GMAILG3 To =~ /recipients/i
