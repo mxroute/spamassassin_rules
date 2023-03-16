@@ -233,7 +233,7 @@ body BODYSPAM2023 /(if you do not complete the new two\-step verification proces
 describe BODYSPAM2023 Email contained known spam string
 score BODYSPAM2023 25
 
-header SPAMDOMAINS2023 From =~ /(beautiqline|lemonlightlabs|sislander\.com|tophaine\.ro|sanabenefits|dizitalmkt\.com)/i
+header SPAMDOMAINS2023 From =~ /(pay\.clicksondelivery\.com|beautiqline|lemonlightlabs|sislander\.com|tophaine\.ro|sanabenefits|dizitalmkt\.com)/i
 describe SPAMDOMAINS2023 Spammers
 score SPAMDOMAINS2023 25
 
