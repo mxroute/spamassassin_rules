@@ -128,6 +128,10 @@ blacklist_from *.racing
 blacklist_from *.faith
 blacklist_from *.date
 
+score RCVD_IN_DNSWL_HI 0
+score RCVD_IN_MSPIKE_H2 0
+score KAM_BLANKSUBJECT 3
+score FROM_EXCESS_BASE64 1
 score BAYES_80 0
 score GB_HASHBL_BTC 100
 score FREEMAIL_FORGED_REPLYTO 1.5
