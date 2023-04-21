@@ -256,3 +256,7 @@ score COINSCAM2022 25
 # This rule is intended only to log something that I think might uniquely identify spam, and I want to see what result is logged
 header MXEXPLORING X-Fxyn-Mailer =~ /SwiftMailer/i
 score MXEXPLORING 0
+
+header MXRBL eval:check_rbl('127.0.0.2', 'bl.mxrbl.com.')
+describe MXRBL Listed on mxrbl.com
+score MXRBL 100
